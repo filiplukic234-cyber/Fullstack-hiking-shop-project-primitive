@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Open+Sans:ital,wght@0,400;1,300&display=swap");
+
+/* css reset start */
+/* <!--
+Source - https://stackoverflow.com/a/18148143
+Posted by Gary Kenyon, modified by community. See post 'Timeline' for change history
+Retrieved 2026-05-06, License - CC BY-SA 3.0
+--> */
+
+/* html { width:100%; height:100%; margin:0 padding:0; }
+body { width:100%; height:100%; margin:0; padding:0; } */
+
+/* experimental */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* css reset done */
+
+a {
+  display: inline-block;
+}
+
+header {
+  background-image: url(../img/header.jpg);
+  background-size: cover;
+  background-position: top;
+  margin: 20px 0;
+}
+header .container {
+  padding: 100px;
+  margin: 0 200px;
+}
+article.header-article {
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 30px;
+  margin: 20px;
+}
+
+a i {
+  color: black;
+}
+
+a.hiking-shop {
+  color: #3a8bcd;
+  text-align: center;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Coda Caption", sans-serif;
+}
+
+article.header-article .order-now {
+  padding: 10px 40px;
+  background-color: #3a8bcd;
+  color: white;
+  border-radius: 5px;
+  width: auto;
+}
+article.header-article .order-now:hover {
+  background-color: black;
+}
+.loremHeader {
+  margin-top: 0;
+}
+.small-dash-after::after {
+  display: flex;
+  content: "";
+  width: 35px;
+  height: 3px;
+  background-color: #3a8bcd;
+  margin-top: 20px;
+}
+.small-dash-before::before {
+  display: block;
+  content: "";
+  width: 35px;
+  height: 3px;
+  background-color: #3a8bcd;
+  margin: 20px 0;
+}
+
+h1 .fa-hiking {
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  text-transform: uppercase;
+  margin: 5px 40px;
+}
+article.hiking-shop {
+  margin-top: 40px;
+  border-top: solid lightslategray 0.5px;
+}
+footer article nav ul li {
+  margin: 0 10px;
+}
+
+button {
+  padding: 15px 40px;
+  margin-top: 25px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #3a8bcd;
+  border: none;
+  color: white;
+}
+
+.topbar {
+  border-top: 5px solid #3a8bcd;
+  border-bottom: 1px solid rgb(246, 246, 246);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.icons {
+  text-align: center;
+}
+.hiking-shop {
+  text-align: center;
+}
+.featured-items {
+  margin: 80px 330px;
+}
+.subscribe {
+  text-align: center;
+  background-color: #3a8bcd;
+  padding: 80px;
+}
+.subscribe h3 {
+  font-size: 24px;
+}
+.loremSubscribe {
+  color: white;
+}
+.emailInput {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.about-main,
+.contact-main {
+  width: 70%;
+  margin: auto;
+  padding: 100px 0;
+}
+.about-article,
+.contact-article {
+  display: flex;
+  gap: 40px;
+}
+.about-article:last-child {
+  box-sizing: border-box;
+}
+.about-img {
+  width: 100%;
+  display: block;
+}
+
+.contact-article-part {
+  width: 100%;
+}
+
+.contact-input {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.hideSubscribe > footer > section.subscribe {
+  display: none;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  padding: 100px 0;
+}
+.container::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* Products */
+
+.products-section article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.products-section article .item {
+  flex: 0 0 24%;
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+.products-section article .item:hover {
+  border: 1px solid #3a8bcd;
+}
+.products-section article .item img {
+  width: 100%;
+}
+.btn-danger {
+  background-color: rgb(204, 91, 91);
+}
+/* Products end */
+
+/* SINGLE */
+.single-main article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.single-main article div:first-child {
+  flex: 0 0 40%;
+}
+
+.single-main article div:first-child img {
+  width: 100%;
+  border: 1px solid #3a8bcd;
+  border-radius: 10px;
+}
+.single-main article div:last-child {
+  flex: 0 0 55%;
+}
+
+.single-main article div:last-child h3 {
+  font-size: 1.7rem;
+}
+.single-main article div:last-child .price {
+  color: #3a8bcd;
+  font-size: 1.2rem;
+}
+.single-main article div:last-child p {
+  font-weight: 300;
+  padding: 10px 0;
+}
+.single-main article div:last-child select {
+  border: 1px solid #3a8bcd;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+/* SINGLE end */
+
+.active {
+  color: #3a8bcd;
+}
+
+/* CART start */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+td,
+th {
+  padding: 12px 10px;
+  text-align: center;
+}
+
+thead th {
+  background: #9fcbdd;
+}
+
+td img {
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+}
+
+td button {
+  margin: 0 auto;
+}
+
+.cart-container > button {
+  /* target clear cart */
+  background-color: #5859a1;
+}
+
+tbody tr:last-child td {
+  /* Total price targeted */
+  background-color: #fff;
+}
+
+.cart-container button.clear-cart {
+  padding: 10px 15px;
+  margin-left: 10px;
+}
+tr.zebra:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+/* CART end */
+
+/* MANAGE start */
+.form-part {
+  display: flex;
+  flex-direction: column;
+}
+.form-part input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(225, 225, 225);
+  margin: 10px 0;
+}
+input#form-image.form-control {
+  padding: 0;
+  border-radius: 7px 0 0 7px;
+}
+input#form-image.form-control::file-selector-button {
+  height: 100%;
+  background: #f5f5f5;
+  padding: 10px 15px;
+  margin-right: 5px;
+  border: none;
+  border-right: 1px solid rgb(225,225,225);
+}
+/* MANAGE end */
