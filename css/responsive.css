@@ -49,14 +49,14 @@
     .subscribe {
       padding: 50px 25px;
     }
-    footer article.container{
-        width: 100%;
-        /* padding: 0; */
-        margin: 0 auto;
+    footer article.container {
+      width: 100%;
+      /* padding: 0; */
+      margin: 0 auto;
     }
-    footer article.container .icons a i{
-        font-size: 30px;
-        margin: 10px;
+    footer article.container .icons a i {
+      font-size: 30px;
+      margin: 10px;
     }
     /* Footer end */
 
@@ -99,8 +99,8 @@
     .item {
       margin: 10px auto;
     }
-    section.products-section.container{
-        min-height: 50vh;
+    section.products-section.container {
+      min-height: 50vh;
     }
     /* Products end */
 
@@ -164,18 +164,14 @@
     th:nth-child(4) {
       display: none;
     }
-    td:nth-child(4) {
-      display: none;
-    }
     td:last-child {
       width: 50px;
     }
-    button.btn.btn-danger {
+    button {
       min-width: fit-content;
       width: 100%;
       height: 40px;
-      max-width: 100px;
-      padding: 5px;
+      padding: 20px 5px;
     }
     /* Cart end */
 
@@ -184,7 +180,87 @@
     main.manage-main .container h3 {
       text-align: center;
     }
+    main.manage-main .container button {
+      padding: 10px;
+      min-height: fit-content;
+      min-width: fit-content;
+      margin: auto;
+      height: 28px;
+    }
+    main.manage-main .container {
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin: 10px auto;
+    }
+    input.btn.btn-primary {
+      margin-top: 10px;
+      width: 100%;
+    }
+    input#form-image.form-control {
+      margin: 0;
+      width: 100%;
+    }
+    input#form-image.form-control::file-selector-button {
+      margin: 0 15px 0 0;
+      width: 50%;
+    }
 
+    .hiddenButtons {
+      display: flex;
+      flex-direction: row;
+      width: 80%;
+      /* justify-content: center; */
+    }
+
+    .partialHiddenButton {
+      flex: 1;
+      display: flex;
+      margin: 10px;
+    }
+
+    .partialHiddenButton button:not([hidden]) {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    main.manage-main .container-table {
+      padding: 0;
+      margin: 20px auto;
+    }
+
+    .edit-table.table-striped th:nth-child(3) {
+      display: none;
+    }
+    .edit-table.table-striped th:nth-child(5) {
+      display: none;
+    }
+
+    #proizvodiTabela tr td:nth-child(3) {
+      display: none;
+    }
+    #proizvodiTabela tr td:nth-child(4) {
+      display: none;
+    }
+    #proizvodiTabela tr td:nth-child(5) {
+      display: none;
+    }
+    #proizvodiTabela tr td {
+      align-items: center;
+      justify-content: center;
+    }
+    #proizvodiTabela tr td button {
+      padding: 5px 5px;
+      min-width: fit-content;
+      height: 28px;
+      /* max-width: fit-content; */
+      margin: 0 auto;
+      justify-content: center;
+    }
+    .container-table {
+      width: 90%;
+    }
     /* Manage end */
   }
 }

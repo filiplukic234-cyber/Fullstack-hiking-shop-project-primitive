@@ -50,15 +50,20 @@ $scripts[] = 'manage.js';
             </div>
 
         </form>
-
-        <button class="btn btn-warning" id="save-btn" hidden>Save</button>
-        <button class="btn btn-danger" id="cancel-btn" hidden>Cancel</button>
+        <div class="hiddenButtons">
+            <div class="partialHiddenButton">
+                <button class="btn btn-warning" id="save-btn" hidden>Save</button>
+            </div>
+            <div class="partialHiddenButton">
+                <button class="btn btn-danger" id="cancel-btn" hidden>Cancel</button>
+            </div>
+        </div>
 
     </section>
 
     <section class="container-table">
 
-        <table class="table table-striped">
+        <table class="edit-table table-striped">
             <thead>
                 <tr>
                     <th scope="col">Id</th>
@@ -74,15 +79,17 @@ $scripts[] = 'manage.js';
             </thead>
             <tbody id="proizvodiTabela">
                 <tr>
+                <tr>
                     <th scope="row">1</th>
                     <td><img src="img/boots.jpg" alt="" height="30px"></td>
-                    <td>Boots</td>
-                    <!-- <td>$120</td> -->
                     <td>2</td>
+                    <td>quantity</td>
                     <td>$120</td>
-                    <td><button class="btn btn-info">View</button></td>
-                    <td><button class="btn btn-warning">Edit</button></td>
-                    <td><button class="btn btn-danger">X</button></td>
+                    <td><button class="btn btn-info" onClick="vidiProizvod(${proizvod.id})">View</button></td>
+                    <td><button class="btn btn-warning" onClick="urediProizvod(${proizvod.id})">Edit</button></td>
+                    <td><button class="btn btn-danger" onClick="ukloniProizvod(${proizvod.id})">Delete</button></td>
+                </tr>
+
                 </tr>
             </tbody>
         </table>
