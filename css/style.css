@@ -146,10 +146,6 @@ nav ul li {
   text-transform: uppercase;
   margin: 5px 40px;
 }
-
-.burger{
-  display: none;
-}
 /* Nav end */
 
 /* Footer start */
@@ -177,7 +173,7 @@ footer article nav ul li {
   border: none;
 }
 
-button.contactButton{
+button.subscribeButton{
   background-color:#5859a1;
   margin: 25px 10px;
 }
@@ -352,6 +348,12 @@ article.hiking-shop {
   width: 100%;
   padding: 20px;
   margin-bottom: 15px;
+}
+iframe{
+  max-height: 450px;
+  max-width: 600px;
+  height: 100%;
+  width: 100%;
 }
 
 /* "About and contact" end */

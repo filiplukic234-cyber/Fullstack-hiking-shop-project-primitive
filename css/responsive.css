@@ -6,8 +6,29 @@
     }
 
     /* Body start */
-
+    .container {
+      padding: 20px;
+      margin: 0 auto;
+    }
+    hr {
+      display: none;
+    }
     /* Body end */
+
+    /* Nav start */
+
+    nav ul {
+      text-align: center;
+      padding: 0;
+    }
+
+    /* Nav end */
+
+    /* Footer start */
+    .subscribe {
+      padding: 50px 25px;
+    }
+    /* Footer end */
 
     /* Index start */
 
@@ -24,10 +45,10 @@
       /* padding: 0; */
       width: 100%;
     }
-    a.order-now{
-        width:70%;
-        margin: 15px auto;
-        padding: 10;
+    a.order-now {
+      width: 70%;
+      margin: 15px auto;
+      padding: 10;
     }
     main {
       margin: 0 auto;
@@ -35,22 +56,79 @@
 
     /* Index end */
 
-    /* Nav start */
-
-    nav ul {
-      text-align: center;
-      padding: 0;
-    }
-
-    /* Nav end */
-
     /* Subscribe start */
     input.emailInput {
       margin: 30px;
     }
-    button.contactButton {
+    button.subscribeButton {
       margin: 10px;
     }
     /* Subscribe end */
+
+    /* Products start */
+    .item {
+      margin: 10px auto;
+    }
+    /* Products end */
+
+    /* About start */
+
+    main.about-main.small-dash-before {
+      margin: 10px auto;
+      padding: 0;
+    }
+    .line-icons-about {
+      margin: 10px auto;
+      flex-direction: row;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .line-icons-about a {
+      margin: 7px;
+    }
+
+    /* About end */
+
+    /* Contact start */
+
+    input {
+      margin: 5px auto;
+    }
+    .emailInputButton {
+      width: 100%;
+      margin: 20px auto;
+    }
+    .contact-article-part {
+      padding: 0;
+      margin: 10px auto;
+    }
+    .contact-article-part.part-1 {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      max-height: 400px;
+      max-width: 400px;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      max-height: 400px;
+      max-width: 400px;
+    }
+    /* Contact end */
+
+    /* Cart start */
+    table {
+        
+    }
+    th:first-child {
+      display: none;
+    }
+    th:nth-child(4) {
+      display: none;
+    }
+
+    /* Cart end */
   }
 }

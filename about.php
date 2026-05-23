@@ -20,12 +20,14 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae debitis similique quia vel, pariatur,
                 minima, harum eos inventore magni architecto sequi suscipit nisi molestias exercitationem aut
                 consequuntur at? Totam, maxime!
+            <div class="line-icons-about">
                 <hr>
                 Find us on:
                 <a href=""><i class="fab fa-facebook-square"></i></a>
                 <a href=""><i class="fab fa-instagram"></i></a>
                 <a href=""><i class="fab fa-twitter"></i></a>
                 <a href=""><i class="fab fa-pinterest"></i></a>
+            </div>
             </p>
         </div>
     </article>

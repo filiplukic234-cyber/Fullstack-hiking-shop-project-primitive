@@ -9,7 +9,7 @@
                 id, rem optio nemo minus voluptatibus voluptas.
             </p>
             <input type="email" placeholder="Your email" class="emailInput">
-            <button type="submit" class="contactButton">Subscribe!</button>
+            <button type="submit" class="subscribeButton">Subscribe!</button>
         </section>
 
 
