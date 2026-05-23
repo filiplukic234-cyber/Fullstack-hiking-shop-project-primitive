@@ -91,8 +91,8 @@ $scripts[] = 'manage.js';
 
 </main>
 
+<?php
+$hideSubscribe = true;
+?>
 
-
-<div class="hideSubscribe">
-    <?php include 'partials/footer.php' ?>
-</div>
+<?php include 'partials/footer.php' ?>

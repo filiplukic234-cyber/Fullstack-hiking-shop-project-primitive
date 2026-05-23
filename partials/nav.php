@@ -1,7 +1,9 @@
 <!-- Nav -->
 <?php
 $scripts[] = 'nav.js';
+$hideSubscribe = false;
 ?>
+
 <nav>
     <ul>
         <li><a href="index.php">Home</a></li>

@@ -7,6 +7,9 @@ $scripts[] = 'products.js';
 
     </article>
 </section>
-<div class="hideSubscribe">
-    <?php include 'partials/footer.php' ?>
-</div>
+
+<?php
+$hideSubscribe = true;
+?>
+
+<?php include 'partials/footer.php' ?>

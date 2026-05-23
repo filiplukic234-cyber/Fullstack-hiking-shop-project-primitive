@@ -1,13 +1,20 @@
 <footer>
-    <section class="subscribe">
-        <h3>Subscribe on Hiking shop now!</h3>
-        <p class="loremSubscribe">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Fuga accusantium labore
-            voluptatum laudantium
-            id, rem optio nemo minus voluptatibus voluptas.
-        </p>
-        <input type="email" placeholder="Your email" class="emailInput">
-        <button type="submit" class="contactButton">Subscribe!</button>
-    </section>
+
+    <?php if ($hideSubscribe == false): ?>
+
+        <section class="subscribe">
+            <h3>Subscribe on Hiking shop now!</h3>
+            <p class="loremSubscribe">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Fuga accusantium labore
+                voluptatum laudantium
+                id, rem optio nemo minus voluptatibus voluptas.
+            </p>
+            <input type="email" placeholder="Your email" class="emailInput">
+            <button type="submit" class="contactButton">Subscribe!</button>
+        </section>
+
+
+    <?php endif; ?>
+
 
 
     <article class="container">

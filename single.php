@@ -37,7 +37,8 @@ $scripts[] = 'single.js';
     </article>
 </main>
 
+<?php
+$hideSubscribe = true;
+?>
 
-<div class="hideSubscribe">
-    <?php include 'partials/footer.php' ?>
-</div>
+<?php include 'partials/footer.php' ?>
