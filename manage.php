@@ -2,7 +2,7 @@
 <?php
 $scripts[] = 'manage.js';
 ?>
-<main class="cart-main">
+<main class="manage-main">
 
 
     <section class="container">

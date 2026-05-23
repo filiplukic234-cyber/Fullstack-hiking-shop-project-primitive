@@ -15,11 +15,32 @@
     }
     /* Body end */
 
+    /* Topbar start */
+
+    .topbar {
+      padding: 10px 0;
+    }
+
+    /* Topbar end */
+
     /* Nav start */
 
     nav ul {
       text-align: center;
       padding: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    nav ul li {
+      margin: 5px;
+    }
+    nav ul li a {
+      padding: 5px 10px;
+    }
+    nav ul li a:hover {
+      background-color: #5859a1;
+      color: white;
     }
 
     /* Nav end */
@@ -27,6 +48,15 @@
     /* Footer start */
     .subscribe {
       padding: 50px 25px;
+    }
+    footer article.container{
+        width: 100%;
+        /* padding: 0; */
+        margin: 0 auto;
+    }
+    footer article.container .icons a i{
+        font-size: 30px;
+        margin: 10px;
     }
     /* Footer end */
 
@@ -68,6 +98,9 @@
     /* Products start */
     .item {
       margin: 10px auto;
+    }
+    section.products-section.container{
+        min-height: 50vh;
     }
     /* Products end */
 
@@ -119,16 +152,39 @@
     /* Contact end */
 
     /* Cart start */
-    table {
-        
+    main.cart-main.container {
+      padding: 0;
+      width: 90%;
+      min-height: 50vh;
     }
+
     th:first-child {
       display: none;
     }
     th:nth-child(4) {
       display: none;
     }
-
+    td:nth-child(4) {
+      display: none;
+    }
+    td:last-child {
+      width: 50px;
+    }
+    button.btn.btn-danger {
+      min-width: fit-content;
+      width: 100%;
+      height: 40px;
+      max-width: 100px;
+      padding: 5px;
+    }
     /* Cart end */
+
+    /* Manage start */
+
+    main.manage-main .container h3 {
+      text-align: center;
+    }
+
+    /* Manage end */
   }
 }
